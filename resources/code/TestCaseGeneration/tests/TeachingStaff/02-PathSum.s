@@ -45,4 +45,4 @@ done:
     lw   $s2, 8($sp)
     lw   $ra, 12($sp)
     addi  $sp, $sp, 16
-    jal  $ra
+    jr  $ra
