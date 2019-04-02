@@ -117,13 +117,13 @@ For the example above, after the initialization, each one of the edges in the CF
 
 | Edge | Change | Bit Vector |
 | ---- | ------ | ---------- |
-| (n_0, n_1) | Dom(n_1) = {n_0, n_1} | 110000 |
+| (n_0, n_1) | Dom(n_1) = {n_0, n_1} | 000011 |
 | (n_0, n_5) | Dom(n_5) = {n_0, n_5} | 100001 |
-| (n_1, n_2) | Dom(n_2) = {n_0, n_1, n_2} | 111000 |
-| (n_1, n_3) | Dom(n_3) = {n_0, n_1, n_3} | 110100 |
-| (n_2, n_4) | Dom(n_4) = {n_0, n_1, n_2, n_4} | 111010 |
-| (n_3, n_4) | Dom(n_4) = {n_0, n_1, n_2} | 111000 |
-| (n_4, n_1) | Dom(n_1) = {n_0, n_1} | 110000 |
+| (n_1, n_2) | Dom(n_2) = {n_0, n_1, n_2} | 000111 |
+| (n_1, n_3) | Dom(n_3) = {n_0, n_1, n_3} | 001011 |
+| (n_2, n_4) | Dom(n_4) = {n_0, n_1, n_2, n_4} | 010111 |
+| (n_3, n_4) | Dom(n_4) = {n_0, n_1, n_2} | 000111 |
+| (n_4, n_1) | Dom(n_1) = {n_0, n_1} | 000011 |
 | (n_4, n_5) | Dom(n_5) = {n_0, n_5} | 100001 |
 
 Since there were several changes to the dominator sets, the algorithm will process again all the edges of the CFG. This time, there will be no changes and the dominator sets for each node in the CFG are the ones shown above. As the table shows, the set of dominators for each node in the CFG can be represented as a bit vector. The only requirement is that each bit vector must have at least *k* bits where *k* is the number of nodes in the CFG. An advantage of using such compact bit vector notation for the dominator sets is that the algorithm to find the dominators itself can use bit vectors for a much more efficient implementation. With bit vectors, a union is simply an `OR` operation and an intersection is simply an `AND` operation. For instance, for the change that occurs when the first edge (n_0, n_1) is processed we need to compute:
@@ -135,7 +135,7 @@ Dom(n_1) = {n_1}  ∪ (Dom(n_1) ∩ Dom(n_0))
 Which becomes the following bit vector operations:
 
 ```
-Dom(n_i) = 010000 OR (111111 AND 100000) = 110000
+Dom(n_i) = 000010 OR (111111 AND 000001) = 000011
 ```
 
 ### MIPS Control Flow Instructions
