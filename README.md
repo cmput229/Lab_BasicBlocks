@@ -226,12 +226,6 @@ You can either allocate memory using the `.data` directive or you may use the `s
 * Slides used for in-lab introduction of the lab ([.pdf](resources/slides/lab.pdf))
 * Here is a [set of scripts](resources/code/TestCaseGeneration) that you can use to generate a new test case. Follow the instructions in the [README file](resources/code/TestCaseGeneration/README.md).
 
-To submit a new test case you have to:
-
-* ensure that your test case has no pseudo instructions because the test case generation uses a *bare* SPIM that cannot handle pseudo instructions.
-* successfully generate a `.bin` file using the procedure described in the directory above (the machine where you are generating the `.bin` file must have the program `expect` installed. In a linux system you can use the command `which` to find out, simply type `which expect` in the command line.
-* once you are successful with the `.bin` file generation, you can submit it as a test case to [CheckMyLab](https://checkmylab.cs.ualberta.ca/). This site only works if accessed from a campus machine. Thus, you will have to either be on campus or connect to a campus machine first.
-
 ## Marking Guide
 
 Here is the [mark sheet](MarkSheet.txt) used for grading. Assignments that are too short to be adequately judged for code quality will be given a zero. Testing for edges and dominators requires accurate basic blocks, so ensure your basic block generation is completely error free. In particular, your submission will be evaluated as follows:
