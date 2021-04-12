@@ -79,6 +79,14 @@ Each edge of the CFG can be represented as a tuple `<s, t>` where `s` is the add
 
 The CFG representation of a procedure is routinely used by compilers and optimizers for several analysis, including the identification of unreachable code, the propagation of constant values, *etc*.
 
+Additionally, here are some external resources introducing CFGs for your reference:
+
+https://www.geeksforgeeks.org/software-engineering-control-flow-graph-cfg/
+
+https://www.youtube.com/watch?v=0lVA7TPpxUE
+
+Note that there might be slight discrepencies between how we construct CFGs in this lab compared to what you'd find online. Make sure your understanding aligns with the lab description.
+
 ### Bit Vectors
 
 A *Bit Vector* is a type of array that stores individual bits compactly. Bits must be singled out and altered using bitwise manipulations. A bit vector is usually stored in memory. The number of words used to store a bit vector is usually the minimum number of words that is necessary to accommodate all bits. For example, a 70-bit bit vector requires three 32-bits words of storage, while a 32-bit bit vector would require a single 32-bit word for storage. Bit vectors are indexed over each bit.
