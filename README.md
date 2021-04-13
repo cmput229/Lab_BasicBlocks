@@ -1,4 +1,4 @@
-# CMPUT 229 Lab 5 - Basic Blocks
+# CMPUT 229 Final Project - Basic Blocks
 
 ## Information
 
@@ -85,7 +85,7 @@ https://www.geeksforgeeks.org/software-engineering-control-flow-graph-cfg/
 
 https://www.youtube.com/watch?v=0lVA7TPpxUE
 
-Note that there might be slight discrepencies between how we construct CFGs in this lab compared to what you'd find online. Make sure your understanding aligns with the lab description.
+Note that there might be slight discrepencies between how we construct CFGs in this project compared to what you'd find online. Make sure your understanding aligns with the project description.
 
 ### Bit Vectors
 
@@ -230,8 +230,8 @@ You can either allocate memory using the `.data` directive or you may use the `s
 
 ## Resources
 
-* Slides used for in-class introduction of the lab  ([.pdf](resources/slides/class.pdf))
-* Slides used for in-lab introduction of the lab ([.pdf](resources/slides/lab.pdf))
+* Slides used for in-class introduction of the project ([.pdf](resources/slides/class.pdf))
+* Slides used for in-lab introduction of the project ([.pdf](resources/slides/lab.pdf))
 * Here is a [set of scripts](resources/code/TestCaseGeneration) that you can use to generate a new test case. Follow the instructions in the [README file](resources/code/TestCaseGeneration/README.md).
 
 ## Marking Guide
@@ -247,8 +247,8 @@ Here is the [mark sheet](MarkSheet.txt) used for grading. Assignments that are t
 
 There is a single file to be submitted for this lab. The file name should be `lab5.s` and it should contain only the code for the function specified above. Make sure to not include a `main` function in your solution.
 
-**Please make sure that you follow the link provided in the course eClass page for this lab assignment to get your own private GitHub repo for this lab. When prompted, make sure to link your GitHub account to your UAlberta ID, otherwise the teaching staff will not be able to grade your submission. If you do not recall whether or not you have previously linked your account, contact the teaching staff before the submission deadline.**
+**Please make sure that you follow the link provided in the course eClass page for this assignment to get your own private GitHub repo for this lab. When prompted, make sure to link your GitHub account to your UAlberta ID, otherwise the teaching staff will not be able to grade your submission. If you do not recall whether or not you have previously linked your account, contact the teaching staff before the submission deadline.**
 
-**To ensure that we have the latest version of your solution, make sure to commit your changes to the repo frequently. Otherwise, you may forget to commit your latest changes by the deadline (which will count as a late lab, and will not be graded). Your solution will be automatically collected via GitHub Classroom by the deadline.**
+**To ensure that we have the latest version of your solution, make sure to commit your changes to the repo frequently. Otherwise, you may forget to commit your latest changes by the deadline (which will count as a late submission, and will not be graded). Your solution will be automatically collected via GitHub Classroom by the deadline.**
 
 **Every file you commit to the repository MUST include the [CMPUT 229 Student Submission License](LICENSE.md) text at the very top, and you must include your name in the appropriate place in the license text. Make sure to comment out the license text if you are adding it to a code file (e.g., `lab5.s`), otherwise, your code will not compile or run. Failing to comply will render your submission inadmissible for grading.**
