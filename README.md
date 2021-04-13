@@ -247,7 +247,7 @@ Here is the [mark sheet](MarkSheet.txt) used for grading. Assignments that are t
 
 There is a single file to be submitted for this lab. The file name should be `lab5.s` and it should contain only the code for the function specified above. Make sure to not include a `main` function in your solution.
 
-**Please make sure that you follow the link provided in the course eClass page for this assignment to get your own private GitHub repo for this lab. When prompted, make sure to link your GitHub account to your UAlberta ID, otherwise the teaching staff will not be able to grade your submission. If you do not recall whether or not you have previously linked your account, contact the teaching staff before the submission deadline.**
+**Please make sure that you follow the link provided in the course eClass page for this project to get your own private GitHub repo for this lab. When prompted, make sure to link your GitHub account to your UAlberta ID, otherwise the teaching staff will not be able to grade your submission. If you do not recall whether or not you have previously linked your account, contact the teaching staff before the submission deadline. Failing to link your GitHub account to your UAlberta ID will render your submission inadmissible for grading.**
 
 **To ensure that we have the latest version of your solution, make sure to commit your changes to the repo frequently. Otherwise, you may forget to commit your latest changes by the deadline (which will count as a late submission, and will not be graded). Your solution will be automatically collected via GitHub Classroom by the deadline.**
 
