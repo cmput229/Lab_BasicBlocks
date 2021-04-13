@@ -1,5 +1,5 @@
 
-		CMPUT 229 Laboratory Assignment #5
+		CMPUT 229 Final Project
 		==================================
 
 Final Mark:           /100 MARKS TOTAL
