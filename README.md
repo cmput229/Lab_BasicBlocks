@@ -211,7 +211,7 @@ Your assignment is to implement a MIPS method `getControlFlow` that takes as arg
     * Each dominator set will be represented by a bit vector.
     * Each bit vector will occupy the minimum number of words required for its storage.
 
-It is your responsibility to allocate 3 additional words at the top of the stack to hold these pointers. No duplicate edges should be included, and a block should only have an edge to itself if it does branch/jump to the top of itself. Blocks should be sorted numerically by leader address, lowest first. Edges returned should be sorted first by source address, then by target address, numerically lowest first.
+It is your responsibility to allocate 3 additional words at the top of the stack to hold these pointers. No duplicate edges should be included, and a block should only have an edge to itself if it does branch/jump to the top of itself. Blocks should be sorted numerically by leader address, lowest first. Edges returned should be sorted first by source address, then by target address, numerically lowest first. The input method will contain no more than 256 blocks.
 
 ### Printing the Output of your `getControlFlow`
 
@@ -226,7 +226,7 @@ bash> spim -notrap -bare
 
 ### How to Allocate Memory in SPIM?
 
-You can either allocate memory using the `.data` directive or you may use the `sbrk` syscall to allocate memory dynamically, which is described on page B-45 of the textbook.
+You can either allocate memory using the `.data` directive or you may use the `sbrk` syscall to allocate memory dynamically, which is described on page [A-44 of the textbook](https://drive.google.com/file/d/16lWr5ngj4-ommeZDVPlPKYj-Y3tOEEbE/view?usp=sharing).
 
 ## Resources
 
