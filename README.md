@@ -85,7 +85,7 @@ https://www.geeksforgeeks.org/software-engineering-control-flow-graph-cfg/
 
 https://www.youtube.com/watch?v=0lVA7TPpxUE
 
-Note that there might be slight discrepencies between how we construct CFGs in this project compared to what you'd find online. Make sure your understanding aligns with the project description.
+Note that there might be slight discrepancies between how we construct CFGs in this project compared to what you'd find online. Make sure your understanding aligns with the project description.
 
 ### Bit Vectors
 
