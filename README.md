@@ -185,6 +185,8 @@ To calculate the target address of a jump, retain the 4 most significant bits fr
 4.  Multiply the address field by 4, to convert from words to bytes.
 5.  `or` the top 4 bits from Step 2 with the product above to generate your target address.
 
+`jal` instructions mark the end of a block. They will have one edge going to the next instruction, **not** the target address instruction. This is because eventually, the subroutine called by `jal` will eventually return, going to the instruction after the intial `jal` instruction.
+
 Register-based jumps are far more complex to calculate targets for, generally requiring dynamic analysis (more information on dynamic analysis is available [here](http://en.wikipedia.org/wiki/Dynamic_program_analysis)). For this assignment, you do not need to determine the target of these jumps. Whenever you encounter such a jump, it will merely signify the end of a block.
 
 ## Assignment
