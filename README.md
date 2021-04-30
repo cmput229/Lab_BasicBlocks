@@ -130,7 +130,7 @@ For the example above, after the initialization, each one of the edges in the CF
 | (n_1, n_2) | Dom(n_2) = {n_0, n_1, n_2} | 000111 |
 | (n_1, n_3) | Dom(n_3) = {n_0, n_1, n_3} | 001011 |
 | (n_2, n_4) | Dom(n_4) = {n_0, n_1, n_2, n_4} | 010111 |
-| (n_3, n_4) | Dom(n_4) = {n_0, n_1, n_2} | 000111 |
+| (n_3, n_4) | Dom(n_4) = {n_0, n_1, n_2, n_4} | 010111 |
 | (n_4, n_1) | Dom(n_1) = {n_0, n_1} | 000011 |
 | (n_4, n_5) | Dom(n_5) = {n_0, n_5} | 100001 |
 
